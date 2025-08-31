@@ -90,20 +90,6 @@
 				{"x": 4, "y": 8, "expression": "[generic_a_knock] || [generic_b_knock] || [generic_c_knock]", "background": "follower_knock"}
 			]
 		},
-				{
-			"id": "yasm.followers.lantern.row",
-			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Lantern (Row)",
-			"icon": "lantern",
-			"rows": 1,
-			"columns": 4,
-			"areas": [
-				{"x": 1, "y": 1, "expression": "[cat_a] || [cat_b] || [cat_c] || [cat_d] || [cat_p]", "background": "follower_cat"},
-				{"x": 2, "y": 1, "expression": "[slee_a] || [slee_b] || [slee_c] || [slee_d] || [slee_p]", "background": "follower_slee"},
-				{"x": 3, "y": 1, "expression": "[clifton_a] || [clifton_b] || [clifton_c] || [clifton_d] || [clifton_p]", "background": "follower_clifton"},
-				{"x": 4, "y": 1, "expression": "[generic_a_lantern] || [generic_b_lantern] || [generic_c_lantern]", "background": "follower_lantern"}
-			]
-		},
 		{
 			"id": "yasm.followers.lantern.column",
 			"category": "followers",
@@ -130,34 +116,6 @@
 				{"x": 2, "y": 1, "expression": "[slee_a] || [slee_b] || [slee_c] || [slee_d] || [slee_p]", "background": "follower_slee"},
 				{"x": 3, "y": 1, "expression": "[clifton_a] || [clifton_b] || [clifton_c] || [clifton_d] || [clifton_p]", "background": "follower_clifton"},
 				{"x": 4, "y": 1, "expression": "[generic_a_lantern] || [generic_b_lantern] || [generic_c_lantern]", "background": "follower_lantern"}
-			]
-		},
-		{
-			"id": "yasm.followers.lantern.column",
-			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Lantern (Column)",
-			"icon": "lantern",
-			"rows": 4,
-			"columns": 1,
-			"areas": [
-				{"x": 1, "y": 1, "expression": "[cat_a] || [cat_b] || [cat_c] || [cat_d] || [cat_p]", "background": "follower_cat"},
-				{"x": 1, "y": 2, "expression": "[slee_a] || [slee_b] || [slee_c] || [slee_d] || [slee_p]", "background": "follower_slee"},
-				{"x": 1, "y": 3, "expression": "[clifton_a] || [clifton_b] || [clifton_c] || [clifton_d] || [clifton_p]", "background": "follower_clifton"},
-				{"x": 1, "y": 4, "expression": "[generic_a_lantern] || [generic_b_lantern] || [generic_c_lantern]", "background": "follower_lantern"}
-			]
-		},
-		{
-			"id": "yasm.followers.forge.row",
-			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Forge (Row)",
-			"icon": "forge",
-			"rows": 1,
-			"columns": 4,
-			"areas": [
-				{"x": 1, "y": 1, "expression": "[valciane_a] || [valciane_b] || [valciane_c] || [valciane_d] || [valciane_p]", "background": "follower_valciane"},
-				{"x": 2, "y": 1, "expression": "[tristan_a] || [tristan_b] || [tristan_c] || [tristan_d] || [tristan_p]", "background": "follower_tristan"},
-				{"x": 3, "y": 1, "expression": "[laidlaw_a] || [laidlaw_b] || [laidlaw_c] || [laidlaw_d] || [laidlaw_p]", "background": "follower_laidlaw"},
-				{"x": 4, "y": 1, "expression": "[generic_a_forge] || [generic_b_forge] || [generic_c_forge]", "background": "follower_forge"}
 			]
 		},
 		{
@@ -175,17 +133,17 @@
 			]
 		},
 		{
-			"id": "yasm.followers.edge.row",
+			"id": "yasm.followers.forge.row",
 			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Edge (Row)",
-			"icon": "edge",
+			"name": "<sprite name=book_ico> Followers - Forge (Row)",
+			"icon": "forge",
 			"rows": 1,
 			"columns": 4,
 			"areas": [
-				{"x": 1, "y": 1, "expression": "[elridge_a] || [elridge_b] || [elridge_c] || [elridge_d] || [elridge_p]", "background": "follower_elridge"},
-				{"x": 2, "y": 1, "expression": "[victor_a] || [victor_b] || [victor_c] || [victor_d] || [victor_p]", "background": "follower_victor"},
-				{"x": 3, "y": 1, "expression": "[rose_a] || [rose_b] || [rose_c] || [rose_d] || [rose_p]", "background": "follower_rose"},
-				{"x": 4, "y": 1, "expression": "[generic_a_edge] || [generic_b_edge] || [generic_c_edge]", "background": "follower_edge"}
+				{"x": 1, "y": 1, "expression": "[valciane_a] || [valciane_b] || [valciane_c] || [valciane_d] || [valciane_p]", "background": "follower_valciane"},
+				{"x": 2, "y": 1, "expression": "[tristan_a] || [tristan_b] || [tristan_c] || [tristan_d] || [tristan_p]", "background": "follower_tristan"},
+				{"x": 3, "y": 1, "expression": "[laidlaw_a] || [laidlaw_b] || [laidlaw_c] || [laidlaw_d] || [laidlaw_p]", "background": "follower_laidlaw"},
+				{"x": 4, "y": 1, "expression": "[generic_a_forge] || [generic_b_forge] || [generic_c_forge]", "background": "follower_forge"}
 			]
 		},
 		{
@@ -203,29 +161,17 @@
 			]
 		},
 		{
-			"id": "yasm.followers.winter.row3",
+			"id": "yasm.followers.edge.row",
 			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Winter (3 Rows)",
-			"icon": "winter",
-			"rows": 1,
-			"columns": 3,
-			"areas": [
-				{"x": 1, "y": 1, "expression": "[violet_a] || [violet_b] || [violet_c] || [violet_d] || [violet_p]", "background": "follower_violet"},
-				{"x": 2, "y": 1, "expression": "[auclair_a] || [auclair_b] || [auclair_c] || [auclair_d] || [auclair_p]", "background": "follower_auclair"},
-				{"x": 3, "y": 1, "expression": "[generic_a_winter] || [generic_b_winter] || [generic_c_winter]", "background": "follower_winter"}
-			]
-		},
-		{
-			"id": "yasm.followers.winter.row4",
-			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Winter (4 Rows)",
-			"icon": "winter",
+			"name": "<sprite name=book_ico> Followers - Edge (Row)",
+			"icon": "edge",
 			"rows": 1,
 			"columns": 4,
 			"areas": [
-				{"x": 1, "y": 1, "expression": "[violet_a] || [violet_b] || [violet_c] || [violet_d] || [violet_p]", "background": "follower_violet"},
-				{"x": 2, "y": 1, "expression": "[auclair_a] || [auclair_b] || [auclair_c] || [auclair_d] || [auclair_p]", "background": "follower_auclair"},
-				{"x": 4, "y": 1, "expression": "[generic_a_winter] || [generic_b_winter] || [generic_c_winter]", "background": "follower_winter"}
+				{"x": 1, "y": 1, "expression": "[elridge_a] || [elridge_b] || [elridge_c] || [elridge_d] || [elridge_p]", "background": "follower_elridge"},
+				{"x": 2, "y": 1, "expression": "[victor_a] || [victor_b] || [victor_c] || [victor_d] || [victor_p]", "background": "follower_victor"},
+				{"x": 3, "y": 1, "expression": "[rose_a] || [rose_b] || [rose_c] || [rose_d] || [rose_p]", "background": "follower_rose"},
+				{"x": 4, "y": 1, "expression": "[generic_a_edge] || [generic_b_edge] || [generic_c_edge]", "background": "follower_edge"}
 			]
 		},
 		{
@@ -255,17 +201,29 @@
 			]
 		},
 		{
-			"id": "yasm.followers.heart.row",
+			"id": "yasm.followers.winter.row3",
 			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Heart (Row)",
-			"icon": "heart",
+			"name": "<sprite name=book_ico> Followers - Winter (3 Rows)",
+			"icon": "winter",
+			"rows": 1,
+			"columns": 3,
+			"areas": [
+				{"x": 1, "y": 1, "expression": "[violet_a] || [violet_b] || [violet_c] || [violet_d] || [violet_p]", "background": "follower_violet"},
+				{"x": 2, "y": 1, "expression": "[auclair_a] || [auclair_b] || [auclair_c] || [auclair_d] || [auclair_p]", "background": "follower_auclair"},
+				{"x": 3, "y": 1, "expression": "[generic_a_winter] || [generic_b_winter] || [generic_c_winter]", "background": "follower_winter"}
+			]
+		},
+		{
+			"id": "yasm.followers.winter.row4",
+			"category": "followers",
+			"name": "<sprite name=book_ico> Followers - Winter (4 Rows)",
+			"icon": "winter",
 			"rows": 1,
 			"columns": 4,
 			"areas": [
-				{"x": 1, "y": 1, "expression": "[dorothy_a] || [dorothy_b] || [dorothy_c] || [dorothy_d] || [dorothy_p]", "background": "follower_dorothy"},
-				{"x": 2, "y": 1, "expression": "[clovette_a] || [clovette_b] || [clovette_c] || [clovette_d] || [clovette_p]", "background": "follower_clovette"},
-				{"x": 3, "y": 1, "expression": "[leo_a] || [leo_b] || [leo_c] || [leo_d] || [leo_p]", "background": "follower_leo"},
-				{"x": 4, "y": 1, "expression": "[generic_a_heart] || [generic_b_heart] || [generic_c_heart]", "background": "follower_heart"}
+				{"x": 1, "y": 1, "expression": "[violet_a] || [violet_b] || [violet_c] || [violet_d] || [violet_p]", "background": "follower_violet"},
+				{"x": 2, "y": 1, "expression": "[auclair_a] || [auclair_b] || [auclair_c] || [auclair_d] || [auclair_p]", "background": "follower_auclair"},
+				{"x": 4, "y": 1, "expression": "[generic_a_winter] || [generic_b_winter] || [generic_c_winter]", "background": "follower_winter"}
 			]
 		},
 		{
@@ -283,29 +241,17 @@
 			]
 		},
 		{
-			"id": "yasm.followers.grail.row3",
+			"id": "yasm.followers.heart.row",
 			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Grail (3 Rows)",
-			"icon": "grail",
-			"rows": 1,
-			"columns": 3,
-			"areas": [
-				{"x": 1, "y": 1, "expression": "[renira_a] || [renira_b] || [renira_c] || [renira_d] || [renira_p]", "background": "follower_renira"},
-				{"x": 2, "y": 1, "expression": "[saliba_a] || [saliba_b] || [saliba_c] || [saliba_d] || [saliba_p]", "background": "follower_saliba"},
-				{"x": 3, "y": 1, "expression": "[generic_a_grail] || [generic_b_grail] || [generic_c_grail]", "background": "follower_grail"}
-			]
-		},
-		{
-			"id": "yasm.followers.grail.row4",
-			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Grail (4 Rows)",
-			"icon": "grail",
+			"name": "<sprite name=book_ico> Followers - Heart (Row)",
+			"icon": "heart",
 			"rows": 1,
 			"columns": 4,
 			"areas": [
-				{"x": 1, "y": 1, "expression": "[renira_a] || [renira_b] || [renira_c] || [renira_d] || [renira_p]", "background": "follower_renira"},
-				{"x": 2, "y": 1, "expression": "[saliba_a] || [saliba_b] || [saliba_c] || [saliba_d] || [saliba_p]", "background": "follower_saliba"},
-				{"x": 4, "y": 1, "expression": "[generic_a_grail] || [generic_b_grail] || [generic_c_grail]", "background": "follower_grail"}
+				{"x": 1, "y": 1, "expression": "[dorothy_a] || [dorothy_b] || [dorothy_c] || [dorothy_d] || [dorothy_p]", "background": "follower_dorothy"},
+				{"x": 2, "y": 1, "expression": "[clovette_a] || [clovette_b] || [clovette_c] || [clovette_d] || [clovette_p]", "background": "follower_clovette"},
+				{"x": 3, "y": 1, "expression": "[leo_a] || [leo_b] || [leo_c] || [leo_d] || [leo_p]", "background": "follower_leo"},
+				{"x": 4, "y": 1, "expression": "[generic_a_heart] || [generic_b_heart] || [generic_c_heart]", "background": "follower_heart"}
 			]
 		},
 		{
@@ -335,17 +281,29 @@
 			]
 		},
 		{
-			"id": "yasm.followers.moth.row",
+			"id": "yasm.followers.grail.row3",
 			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Moth (Row)",
-			"icon": "moth",
+			"name": "<sprite name=book_ico> Followers - Grail (3 Rows)",
+			"icon": "grail",
+			"rows": 1,
+			"columns": 3,
+			"areas": [
+				{"x": 1, "y": 1, "expression": "[renira_a] || [renira_b] || [renira_c] || [renira_d] || [renira_p]", "background": "follower_renira"},
+				{"x": 2, "y": 1, "expression": "[saliba_a] || [saliba_b] || [saliba_c] || [saliba_d] || [saliba_p]", "background": "follower_saliba"},
+				{"x": 3, "y": 1, "expression": "[generic_a_grail] || [generic_b_grail] || [generic_c_grail]", "background": "follower_grail"}
+			]
+		},
+		{
+			"id": "yasm.followers.grail.row4",
+			"category": "followers",
+			"name": "<sprite name=book_ico> Followers - Grail (4 Rows)",
+			"icon": "grail",
 			"rows": 1,
 			"columns": 4,
 			"areas": [
-				{"x": 1, "y": 1, "expression": "[ysabet_a] || [ysabet_b] || [ysabet_c] || [ysabet_d] || [ysabet_p]", "background": "follower_ysabet"},
-				{"x": 2, "y": 1, "expression": "[sylvia_a] || [sylvia_b] || [sylvia_c] || [sylvia_d] || [sylvia_p]", "background": "follower_sylvia"},
-				{"x": 3, "y": 1, "expression": "[porter_a] || [porter_b] || [porter_c] || [porter_d] || [porter_p]", "background": "follower_porter"},
-				{"x": 4, "y": 1, "expression": "[generic_a_moth] || [generic_b_moth] || [generic_c_moth]", "background": "follower_moth"}
+				{"x": 1, "y": 1, "expression": "[renira_a] || [renira_b] || [renira_c] || [renira_d] || [renira_p]", "background": "follower_renira"},
+				{"x": 2, "y": 1, "expression": "[saliba_a] || [saliba_b] || [saliba_c] || [saliba_d] || [saliba_p]", "background": "follower_saliba"},
+				{"x": 4, "y": 1, "expression": "[generic_a_grail] || [generic_b_grail] || [generic_c_grail]", "background": "follower_grail"}
 			]
 		},
 		{
@@ -360,6 +318,46 @@
 				{"x": 1, "y": 2, "expression": "[sylvia_a] || [sylvia_b] || [sylvia_c] || [sylvia_d] || [sylvia_p]", "background": "follower_sylvia"},
 				{"x": 1, "y": 3, "expression": "[porter_a] || [porter_b] || [porter_c] || [porter_d] || [porter_p]", "background": "follower_porter"},
 				{"x": 1, "y": 4, "expression": "[generic_a_moth] || [generic_b_moth] || [generic_c_moth]", "background": "follower_moth"}
+			]
+		},
+		{
+			"id": "yasm.followers.moth.row",
+			"category": "followers",
+			"name": "<sprite name=book_ico> Followers - Moth (Row)",
+			"icon": "moth",
+			"rows": 1,
+			"columns": 4,
+			"areas": [
+				{"x": 1, "y": 1, "expression": "[ysabet_a] || [ysabet_b] || [ysabet_c] || [ysabet_d] || [ysabet_p]", "background": "follower_ysabet"},
+				{"x": 2, "y": 1, "expression": "[sylvia_a] || [sylvia_b] || [sylvia_c] || [sylvia_d] || [sylvia_p]", "background": "follower_sylvia"},
+				{"x": 3, "y": 1, "expression": "[porter_a] || [porter_b] || [porter_c] || [porter_d] || [porter_p]", "background": "follower_porter"},
+				{"x": 4, "y": 1, "expression": "[generic_a_moth] || [generic_b_moth] || [generic_c_moth]", "background": "follower_moth"}
+			]
+		},
+				{
+			"id": "yasm.followers.knock.column3",
+			"category": "followers",
+			"name": "<sprite name=book_ico> Followers - Knock (3 Columns)",
+			"icon": "knock",
+			"rows": 3,
+			"columns": 1,
+			"areas": [
+				{"x": 1, "y": 1, "expression": "[neville_a] || [neville_b] || [neville_c] || [neville_d] || [neville_p]", "background": "follower_neville"},
+				{"x": 1, "y": 2, "expression": "[enid_a] || [enid_b] || [enid_c] || [enid_d] || [enid_p]", "background": "follower_enid"},
+				{"x": 1, "y": 3, "expression": "[generic_a_knock] || [generic_b_knock] || [generic_c_knock]", "background": "follower_knock"}
+			]
+		},
+		{
+			"id": "yasm.followers.knock.column4",
+			"category": "followers",
+			"name": "<sprite name=book_ico> Followers - Knock (4 Columns)",
+			"icon": "knock",
+			"rows": 4,
+			"columns": 1,
+			"areas": [
+				{"x": 1, "y": 1, "expression": "[neville_a] || [neville_b] || [neville_c] || [neville_d] || [neville_p]", "background": "follower_neville"},
+				{"x": 1, "y": 2, "expression": "[enid_a] || [enid_b] || [enid_c] || [enid_d] || [enid_p]", "background": "follower_enid"},
+				{"x": 1, "y": 4, "expression": "[generic_a_knock] || [generic_b_knock] || [generic_c_knock]", "background": "follower_knock"}
 			]
 		},
 		{
@@ -386,32 +384,6 @@
 				{"x": 1, "y": 1, "expression": "[neville_a] || [neville_b] || [neville_c] || [neville_d] || [neville_p]", "background": "follower_neville"},
 				{"x": 2, "y": 1, "expression": "[enid_a] || [enid_b] || [enid_c] || [enid_d] || [enid_p]", "background": "follower_enid"},
 				{"x": 4, "y": 1, "expression": "[generic_a_knock] || [generic_b_knock] || [generic_c_knock]", "background": "follower_knock"}
-			]
-		},
-		{
-			"id": "yasm.followers.knock.column3",
-			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Knock (3 Columns)",
-			"icon": "knock",
-			"rows": 3,
-			"columns": 1,
-			"areas": [
-				{"x": 1, "y": 1, "expression": "[neville_a] || [neville_b] || [neville_c] || [neville_d] || [neville_p]", "background": "follower_neville"},
-				{"x": 1, "y": 2, "expression": "[enid_a] || [enid_b] || [enid_c] || [enid_d] || [enid_p]", "background": "follower_enid"},
-				{"x": 1, "y": 3, "expression": "[generic_a_knock] || [generic_b_knock] || [generic_c_knock]", "background": "follower_knock"}
-			]
-		},
-		{
-			"id": "yasm.followers.knock.column4",
-			"category": "followers",
-			"name": "<sprite name=book_ico> Followers - Knock (4 Columns)",
-			"icon": "knock",
-			"rows": 4,
-			"columns": 1,
-			"areas": [
-				{"x": 1, "y": 1, "expression": "[neville_a] || [neville_b] || [neville_c] || [neville_d] || [neville_p]", "background": "follower_neville"},
-				{"x": 1, "y": 2, "expression": "[enid_a] || [enid_b] || [enid_c] || [enid_d] || [enid_p]", "background": "follower_enid"},
-				{"x": 1, "y": 4, "expression": "[generic_a_knock] || [generic_b_knock] || [generic_c_knock]", "background": "follower_knock"}
 			]
 		}
 	]
