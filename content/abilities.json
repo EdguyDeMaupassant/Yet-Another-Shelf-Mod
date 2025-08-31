@@ -1,5 +1,5 @@
 {
-	"shelves":	[
+	"shelves": 	[
 		{
 			"id": "yasm.stats_skills.row",
 			"category": "abilities",
@@ -7,29 +7,29 @@
 			"rows": 2,
 			"columns": 3,
 			"areas": [
-				{"x":1,"y":1,"expression":"health","background":"ability_health"},
-				{"x":2,"y":1,"expression":"reason","background":"ability_reason"},
-				{"x":3,"y":1,"expression":"passion","background":"ability_passion"},
+				{"x": 1, "y": 1, "expression": "health", "background": "ability_health"}, 
+				{"x": 2, "y": 1, "expression": "reason", "background": "ability_reason"}, 
+				{"x": 3, "y": 1, "expression": "passion", "background": "ability_passion"}, 
 				
-				{"x":1,"y":2,"expression":"healthskill","background":"ability_healthskill"},
-				{"x":2,"y":2,"expression":"reasonskill","background":"ability_reasonskill"},
-				{"x":3,"y":2,"expression":"passionskill","background":"ability_passionskill"}
+				{"x": 1, "y": 2, "expression": "healthskill", "background": "ability_healthskill"},
+				{"x": 2, "y": 2, "expression": "reasonskill", "background": "ability_reasonskill"},
+				{"x": 3, "y": 2, "expression": "passionskill", "background": "ability_passionskill"}
 			]
 		},
 		{
 			"id": "yasm.stats_skills.column",
 			"category": "abilities",
 			"name": "<sprite name=book_ico> Stats + Skills (Columns)",
-			"rows": 6,
-			"columns": 1,
+			"rows": 3,
+			"columns": 2,
 			"areas": [
-				{"x":1,"y":1,"expression":"health","background":"ability_health"},
-				{"x":1,"y":2,"expression":"reason","background":"ability_reason"},
-				{"x":1,"y":3,"expression":"passion","background":"ability_passion"},
+				{"x": 1, "y": 1, "expression": "health", "background": "ability_health"},
+				{"x": 1, "y": 2, "expression": "reason", "background": "ability_reason"},
+				{"x": 1, "y": 3, "expression": "passion", "background": "ability_passion"},
 				
-				{"x":1,"y":4,"expression":"healthskill","background":"ability_healthskill"},
-				{"x":1,"y":5,"expression":"reasonskill","background":"ability_reasonskill"},
-				{"x":1,"y":6,"expression":"passionskill","background":"ability_passionskill"}
+				{"x": 2, "y": 1, "expression": "healthskill", "background": "ability_healthskill"},
+				{"x": 2, "y": 2, "expression": "reasonskill", "background": "ability_reasonskill"},
+				{"x": 2, "y": 3, "expression": "passionskill", "background": "ability_passionskill"}
 			]
 		},
 		{
@@ -39,21 +39,21 @@
 			"rows": 3,
 			"columns": 1,
 			"areas": [
-				{"x":1,"y":1,"expression":"health","background":"ability_health"},
-				{"x":1,"y":2,"expression":"reason","background":"ability_reason"},
-				{"x":1,"y":3,"expression":"passion","background":"ability_passion"}
+				{"x": 1, "y": 1, "expression": "health", "background": "ability_health"},
+				{"x": 1, "y": 2, "expression": "reason", "background": "ability_reason"},
+				{"x": 1, "y": 3, "expression": "passion", "background": "ability_passion"}
 			]
 		},
 		{
-			"id": "yasm.stats.row",
+			"id": "stats",
 			"category": "abilities",
 			"name": "<sprite name=book_ico> Stats (Row)",
 			"rows": 1,
 			"columns": 3,
 			"areas": [
-				{"x":1,"y":1,"expression":"health","background":"ability_health"},
-				{"x":2,"y":1,"expression":"reason","background":"ability_reason"},
-				{"x":3,"y":1,"expression":"passion","background":"ability_passion"}
+				{"x": 1, "y": 1, "expression": "health", "background": "ability_health"},
+				{"x": 2, "y": 1, "expression": "reason", "background": "ability_reason"},
+				{"x": 3, "y": 1, "expression": "passion", "background": "ability_passion"}
 			]
 		},
 		{
@@ -63,21 +63,45 @@
 			"rows": 3,
 			"columns": 1,
 			"areas": [
-				{"x":1,"y":1,"expression":"healthskill","background":"ability_healthskill"},
-				{"x":1,"y":2,"expression":"reasonskill","background":"ability_reasonskill"},
-				{"x":1,"y":3,"expression":"passionskill","background":"ability_passionskill"}
+				{"x": 1, "y": 1, "expression": "healthskill", "background": "ability_healthskill"},
+				{"x": 1, "y": 2, "expression": "reasonskill", "background": "ability_reasonskill"},
+				{"x": 1, "y": 3, "expression": "passionskill", "background": "ability_passionskill"}
 			]
 		},
 		{
-			"id": "yasm.skills.row",
+			"id": "skills",
 			"category": "abilities",
 			"name": "<sprite name=book_ico> Skills (Row)",
 			"rows": 1,
 			"columns": 3,
 			"areas": [
-				{"x":1,"y":1,"expression":"healthskill","background":"ability_healthskill"},
-				{"x":2,"y":1,"expression":"reasonskill","background":"ability_reasonskill"},
-				{"x":3,"y":1,"expression":"passionskill","background":"ability_passionskill"}
+				{"x": 1, "y": 1, "expression": "healthskill", "background": "ability_healthskill"},
+				{"x": 2, "y": 1, "expression": "reasonskill", "background": "ability_reasonskill"},
+				{"x": 3, "y": 1, "expression": "passionskill", "background": "ability_passionskill"}
+			]
+		},
+		{
+			"id": "yasm.decay.column",
+			"category": "abilities",
+			"name": "<sprite name=book_ico> Fatigue/Dimness/Exhaustion (Columns)",
+			"rows": 4,
+			"columns": 3,
+			"areas": [
+				{"x": 1, "y": 1, "rows": 4, "expression": "fatigue", "background": "ability_fatigue"},
+				{"x": 2, "y": 1, "rows": 4, "expression": "concentration", "background": "ability_dimmed"},
+				{"x": 3, "y": 1, "rows": 4, "expression": "passionexhausted", "background": "ability_exhausted"}
+			]
+		},
+		{
+			"id": "yasm.decay.rows",
+			"category": "abilities",
+			"name": "<sprite name=book_ico> Fatigue/Dimness/Exhaustion (Rows)",
+			"rows": 3,
+			"columns": 4,
+			"areas": [
+				{"x": 1, "y": 1, "columns": 4, "expression": "fatigue", "background": "ability_fatigue"},
+				{"x": 1, "y": 2, "columns": 4, "expression": "concentration", "background": "ability_dimmed"},
+				{"x": 1, "y": 3, "columns": 4, "expression": "passionexhausted", "background": "ability_exhausted"}
 			]
 		}
 	]

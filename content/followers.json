@@ -4,8 +4,8 @@
 			"id": "yasm.followers.column",
 			"category": "followers",
 			"name": "<sprite name=book_ico> All Followers (Columns)",
-			"rows": 4,
-			"columns": 8,
+			"rows": 0,
+			"columns": 0,
 			"areas": [
 				{"x": 1, "y": 1, "expression": "[cat_a] || [cat_b] || [cat_c] || [cat_d] || [cat_p]", "background": "follower_cat"},
 				{"x": 1, "y": 2, "expression": "[slee_a] || [slee_b] || [slee_c] || [slee_d] || [slee_p]", "background": "follower_slee"},
