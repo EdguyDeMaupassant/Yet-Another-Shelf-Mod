@@ -1,0 +1,28 @@
+{
+	"shelves":	[
+		{
+			"id": "yasm.stats.row",
+			"category": "abilities",
+			"name": "Stats (Row)",
+			"rows": 1,
+			"columns": 3,
+			"areas": [
+				{"x":1,"y":1,"expression":"health","background":"ability_health"				},
+				{"x":2,"y":1,"expression":"reason","background":"ability_reason"				},
+				{"x":3,"y":1,"expression":"passion","background":"ability_passion"				}
+			]
+		},
+		{
+			"id": "yasm.stats.column",
+			"category": "abilities",
+			"name": "Stats (Column)",
+			"rows": 3,
+			"columns": 1,
+			"areas": [
+				{"x":1,"y":1,"expression":"health","background":"ability_health"				},
+				{"x":1,"y":2,"expression":"reason","background":"ability_reason"				},
+				{"x":1,"y":3,"expression":"passion","background":"ability_passion"				}
+			]
+		}
+	]
+}
